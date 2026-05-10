@@ -1,0 +1,271 @@
+﻿
+    <html xmlns:o='urn:schemas-microsoft-com:office:office'
+          xmlns:w='urn:schemas-microsoft-com:office:word'
+          xmlns='http://www.w3.org/TR/REC-html40'>
+    <head>
+      <meta charset='utf-8'>
+      <title>AI SOP Generator</title>
+      <!--[if gte mso 9]>
+      <xml><w:WordDocument><w:View>Print</w:View><w:Zoom>90</w:Zoom></w:WordDocument></xml>
+      <![endif]-->
+      <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11pt; color: #1a1a1a; line-height: 1.7; margin: 72pt; }
+        .doc-title { font-size: 22pt; font-weight: bold; color: #155e2e; border-bottom: 2pt solid #16a34a; padding-bottom: 6pt; }
+        .doc-subtitle { font-size: 11pt; color: #555; margin-bottom: 18pt; }
+        h2 { font-size: 12pt; font-weight: bold; color: #155e2e; text-transform: uppercase; border-left: 4pt solid #16a34a; padding-left: 8pt; margin-top: 20pt; }
+        h3 { font-size: 11pt; font-weight: bold; color: #16a34a; margin-top: 12pt; }
+        p, li { font-size: 10.5pt; color: #333; }
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #155e2e; color: #fff; padding: 6pt 10pt; font-weight: bold; }
+        td { padding: 6pt 10pt; border: 1pt solid #ccc; }
+        .box { border: 1pt solid #bbf7d0; padding: 10pt; background: #f0fdf4; margin: 6pt 0; }
+        .highlight-box { background: #fefce8; border: 1pt solid #fde047; padding: 10pt; margin: 10pt 0; }
+        .footer { margin-top: 36pt; border-top: 1pt solid #d1fae5; padding-top: 10pt; font-size: 9pt; color: #999; text-align: center; }
+        .meta { font-size: 9.5pt; color: #666; margin-bottom: 18pt; }
+        .pill { background: #dcfce7; color: #155e2e; padding: 2pt 8pt; border-radius: 10pt; font-size: 9pt; font-weight: bold; display: inline-block; margin: 2pt; }
+        .code-box { background: #f8fafc; border: 1pt solid #e2e8f0; padding: 10pt; font-family: monospace; font-size: 9pt; color: #155e2e; line-height: 1.8; }
+      </style>
+    </head>
+    <body>
+
+  <div class="doc-title">AI SOP Generator</div>
+  <div class="doc-subtitle">Enterprise Architecture &amp; Project Documentation — Standard Operating Procedure Automation</div>
+  <div class="meta">
+    <span>📅 Date: May 2026</span>
+    <span>🏢 Type: Enterprise AI Solution</span>
+    <span>📂 Category: RPA / Process Automation / GenAI</span>
+  </div>
+
+  <h2>1. Executive Summary</h2>
+  <p>The AI SOP Generator is an intelligent, enterprise-grade platform that automatically creates Standard Operating Procedures (SOPs) from process recordings, user actions, meeting transcripts, existing documents, automation workflows, and screenshots. By leveraging Large Language Models (LLMs), computer vision, and document intelligence, it eliminates the manual effort of SOP authoring and ensures consistent, audit-ready process documentation across the organization.</p>
+  <div class="highlight-box">
+    <p>💡 <strong>Key Value:</strong> Reduce SOP creation time from days to minutes while maintaining enterprise-grade quality, consistency, and compliance.</p>
+  </div>
+
+  <h2>2. Problem Statement</h2>
+  <div class="grid2">
+    <div class="box">
+      <h3>🔴 Challenges</h3>
+      <ul>
+        <li>SOP creation is manual, slow, and inconsistent</li>
+        <li>Process knowledge locked in the minds of employees</li>
+        <li>Outdated SOPs cause compliance and audit failures</li>
+        <li>No scalable way to document hundreds of processes</li>
+        <li>High cost of external consultants for documentation</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>🟢 Solution</h3>
+      <ul>
+        <li>AI extracts steps from recordings &amp; screenshots</li>
+        <li>Automatically structures content into SOP format</li>
+        <li>Generates roles, responsibilities &amp; exception handling</li>
+        <li>Exports to Word / PDF in seconds</li>
+        <li>Continuous update from process changes</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>3. System Capabilities</h2>
+
+  <h3>3.1 Supported Inputs</h3>
+  <ul>
+    <li>Process recordings / screen capture videos</li>
+    <li>Screenshots of application screens</li>
+    <li>Meeting transcripts and voice recordings</li>
+    <li>Existing notes, emails, or Word/PDF documents</li>
+    <li>Workflow files (UiPath XAML, Power Automate flows)</li>
+    <li>User action logs from RPA bots</li>
+  </ul>
+
+  <h3>3.2 AI Workflow</h3>
+  <ol class="step-list">
+    <li>Extract process steps from input sources using OCR and NLP</li>
+    <li>Detect actions and application screens via computer vision</li>
+    <li>Generate a structured, hierarchical SOP draft using an LLM</li>
+    <li>Create formatted documentation with headings, tables, and notes</li>
+    <li>Annotate screenshots and embed visuals in the document</li>
+    <li>Export final SOP to Word (.docx) or PDF format</li>
+  </ol>
+
+  <h3>3.3 Output Deliverables</h3>
+  <div class="io-grid">
+    <div class="io-card inp">
+      <h3>📥 Input</h3>
+      <ul>
+        <li>Screen recordings</li>
+        <li>Screenshots</li>
+        <li>Transcripts</li>
+        <li>Workflow files</li>
+        <li>Existing docs</li>
+      </ul>
+    </div>
+    <div class="io-card proc">
+      <h3>⚙️ AI Processing</h3>
+      <ul>
+        <li>OCR extraction</li>
+        <li>NLP step parsing</li>
+        <li>Vision detection</li>
+        <li>LLM structuring</li>
+        <li>Auto formatting</li>
+      </ul>
+    </div>
+    <div class="io-card out">
+      <h3>📤 Output</h3>
+      <ul>
+        <li>Step-by-step SOP</li>
+        <li>Annotated screenshots</li>
+        <li>Roles &amp; responsibilities</li>
+        <li>Exception handling</li>
+        <li>Process summary</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>4. Enterprise Architecture</h2>
+  <p>The system is designed as a modular, scalable pipeline with clear separation of concerns across each layer:</p>
+  <ul class="arch-list">
+    <li>🖥️ Intake UI — Upload recordings, screenshots, documents</li>
+    <li>⚡ FastAPI Backend — Orchestrates the AI pipeline</li>
+    <li>🎬 Media Processor — Video frame extraction &amp; OCR</li>
+    <li>👁️ Vision Engine — Screen/action detection (GPT-4 Vision)</li>
+    <li>📝 NLP Engine — Transcript &amp; document parsing (LangChain)</li>
+    <li>🤖 LLM Layer — SOP generation (GPT-4 / Azure OpenAI)</li>
+    <li>📐 Template Engine — Format to enterprise SOP structure</li>
+    <li>📄 Export Module — Word (.docx) / PDF generation</li>
+    <li>🗄️ Storage — Azure Blob + PostgreSQL</li>
+    <li>📊 SOP Management Dashboard</li>
+  </ul>
+
+  <h2>5. Recommended Tech Stack</h2>
+  <table>
+    <thead>
+      <tr><th>Layer</th><th>Technology</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Frontend</td><td>Streamlit / React</td></tr>
+      <tr><td>Backend</td><td>FastAPI (Python)</td></tr>
+      <tr><td>LLM</td><td>GPT-4 / Azure OpenAI</td></tr>
+      <tr><td>Vision AI</td><td>GPT-4 Vision / Azure AI Vision</td></tr>
+      <tr><td>OCR</td><td>Azure Form Recognizer / Tesseract</td></tr>
+      <tr><td>NLP Framework</td><td>LangChain</td></tr>
+      <tr><td>Video Processing</td><td>OpenCV / FFmpeg</td></tr>
+      <tr><td>Document Export</td><td>python-docx / ReportLab (PDF)</td></tr>
+      <tr><td>Storage</td><td>Azure Blob Storage</td></tr>
+      <tr><td>Database</td><td>PostgreSQL</td></tr>
+      <tr><td>Deployment</td><td>Docker + Azure Container Apps</td></tr>
+    </tbody>
+  </table>
+
+  <h2>6. Project Folder Structure</h2>
+  <div class="code-box">
+    ai-sop-generator/<br>
+    ├── app/<br>
+    │&nbsp;&nbsp;&nbsp;├── api/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#888; font-family:sans-serif; font-size:0.82rem;"># FastAPI route handlers</span><br>
+    │&nbsp;&nbsp;&nbsp;├── media/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#888; font-family:sans-serif; font-size:0.82rem;"># Video frame extraction, OCR</span><br>
+    │&nbsp;&nbsp;&nbsp;├── vision/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#888; font-family:sans-serif; font-size:0.82rem;"># GPT-4 Vision screen detection</span><br>
+    │&nbsp;&nbsp;&nbsp;├── nlp/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#888; font-family:sans-serif; font-size:0.82rem;"># Transcript &amp; document parsing</span><br>
+    │&nbsp;&nbsp;&nbsp;├── llm/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#888; font-family:sans-serif; font-size:0.82rem;"># SOP generation prompts</span><br>
+    │&nbsp;&nbsp;&nbsp;├── templates/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#888; font-family:sans-serif; font-size:0.82rem;"># SOP Word/PDF templates</span><br>
+    │&nbsp;&nbsp;&nbsp;├── export/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#888; font-family:sans-serif; font-size:0.82rem;"># python-docx / ReportLab export</span><br>
+    │&nbsp;&nbsp;&nbsp;└── db/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#888; font-family:sans-serif; font-size:0.82rem;"># PostgreSQL models</span><br>
+    ├── frontend/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#888; font-family:sans-serif; font-size:0.82rem;"># Streamlit / React UI</span><br>
+    ├── tests/<br>
+    ├── docker-compose.yml<br>
+    ├── requirements.txt<br>
+    └── README.md
+  </div>
+
+  <h2>7. Target Industries &amp; Use Cases</h2>
+  <div class="grid2">
+    <div class="box">
+      <h3>🏢 Industries</h3>
+      <ul>
+        <li>RPA Centre of Excellence (CoE) teams</li>
+        <li>IT Operations &amp; Service Desk</li>
+        <li>HR Operations &amp; Onboarding</li>
+        <li>Finance &amp; Accounts Payable</li>
+        <li>Shared Services Centres</li>
+        <li>Management Consulting Firms</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>🎯 Use Cases</h3>
+      <ul>
+        <li>Document automation workflows before RPA</li>
+        <li>Onboarding material creation at scale</li>
+        <li>Compliance &amp; audit-ready SOP libraries</li>
+        <li>Knowledge capture from retiring employees</li>
+        <li>ISO / regulatory process documentation</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>8. Key Features</h2>
+  <div class="grid2">
+    <div class="box">
+      <h3>🎬 Multi-Input Ingestion</h3>
+      <p>Accepts screen recordings, screenshots, transcripts, workflow XMLs, and existing documents. Processes multiple formats simultaneously.</p>
+    </div>
+    <div class="box">
+      <h3>👁️ Vision-Powered Detection</h3>
+      <p>GPT-4 Vision identifies application screens, UI elements, and user actions from screenshots and video frames automatically.</p>
+    </div>
+    <div class="box">
+      <h3>🤖 LLM SOP Authoring</h3>
+      <p>GPT-4 generates structured, enterprise-quality SOPs with step descriptions, decision points, roles, and exception handling sections.</p>
+    </div>
+    <div class="box">
+      <h3>📄 Instant Export</h3>
+      <p>One-click export to formatted Word (.docx) or PDF with annotated screenshots, branded headers, and enterprise SOP templates.</p>
+    </div>
+    <div class="box">
+      <h3>🔁 Version Control</h3>
+      <p>Track SOP revisions over time. Compare versions, roll back changes, and maintain an audit trail for compliance requirements.</p>
+    </div>
+    <div class="box">
+      <h3>🔗 RPA Integration</h3>
+      <p>Directly reads UiPath XAML and Power Automate flow files to auto-generate process documentation from existing automation.</p>
+    </div>
+  </div>
+
+  <h2>9. SOP Output Structure</h2>
+  <table>
+    <thead>
+      <tr><th>Section</th><th>Description</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Process Overview</td><td>Purpose, scope, and process owner</td></tr>
+      <tr><td>Roles &amp; Responsibilities</td><td>RACI matrix per step</td></tr>
+      <tr><td>Pre-requisites</td><td>Systems, access, and data needed</td></tr>
+      <tr><td>Step-by-Step Instructions</td><td>Numbered steps with annotated screenshots</td></tr>
+      <tr><td>Decision Points</td><td>If/else branches and escalation paths</td></tr>
+      <tr><td>Exception Handling</td><td>Error scenarios and recovery procedures</td></tr>
+      <tr><td>Process Summary</td><td>KPIs, frequency, and review schedule</td></tr>
+    </tbody>
+  </table>
+
+  <h2>10. Deployment</h2>
+  <ul>
+    <li><strong>Containerization:</strong> Docker &amp; Docker Compose for all services</li>
+    <li><strong>Cloud:</strong> Azure Container Apps for scalable, serverless deployment</li>
+    <li><strong>Storage:</strong> Azure Blob Storage for recordings, screenshots, and exports</li>
+    <li><strong>Database:</strong> PostgreSQL for SOP metadata, versions, and audit logs</li>
+    <li><strong>Security:</strong> Azure Active Directory (AAD) for enterprise SSO &amp; access control</li>
+  </ul>
+
+  <h2>11. Summary</h2>
+  <p>The AI SOP Generator is a production-ready, enterprise-grade platform that transforms unstructured process knowledge — from recordings, screenshots, and transcripts — into polished, audit-ready Standard Operating Procedures in minutes, not days. It is ideal for RPA CoE teams, IT/HR operations, and any organization looking to scale process documentation without scaling headcount.</p>
+  <div class="pills">
+    <span class="pill">✅ Multi-Input Ingestion</span>
+    <span class="pill">✅ GPT-4 Vision</span>
+    <span class="pill">✅ LLM SOP Authoring</span>
+    <span class="pill">✅ Word / PDF Export</span>
+    <span class="pill">✅ RPA Integration</span>
+    <span class="pill">✅ Azure Ready</span>
+    <span class="pill">✅ Version Control</span>
+  </div>
+
+  <div class="footer">AI SOP Generator — Enterprise Documentation &nbsp;|&nbsp; Confidential &nbsp;|&nbsp; © 2026</div>
+</body>
+    </html>
